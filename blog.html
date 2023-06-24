@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiranandani-Home</title>
+    <style>
+        @import url(css/swiper-bundle.min.css);
+        @import url(css/bootstrap-icons.min.css);
+        @import url(css/bootstrap-slider.min.css);
+        @import url(css/bootstrap.min.css);
+        @import url(css/style.css);
+    </style>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="navbar navbar-expand-lg bg-dark bg-white">
+        <div class="container">
+            <a class="navbar-brand text-primary text-uppercase fw-bold fs-4" href="#"><img src="img/logo.png" alt=""
+                    style="width: 15%;"> Hiranandani</a>
+            <button class="navbar-toggler border-0 shadow-none" data-bs-toggle="collapse" data-bs-target="#dropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="dropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item fw-semibold h5"><a href="index.html"
+                            class="nav-link text-dark hover text-uppercase px-3">home</a></li>
+                    <li class="nav-item fw-semibold h5"><a href="about.html"
+                            class="nav-link text-dark hover text-uppercase px-3">about</a></li>
+                    <li class="nav-item fw-semibold h5"><a href="services.html"
+                            class="nav-link text-dark hover text-uppercase px-3">services</a></li>
+                    <li class="nav-item fw-semibold h5"><a href="blog.html"
+                            class="nav-link text-primary hover text-uppercase px-3">blog</a></li>
+                    <li class="nav-item disabled fw-semibold h5"><a href="#" class="nav-link hover text-uppercase px-3"
+                            id="liveAlertBtn">Departments</a></li>
+                </ul>
+                <button class="btn btn-gradaint-hover rounded-pill pt-2 pb-2 ps-4 pe-4 text-uppercase fw-semibold"
+                    data-bs-toggle="offcanvas" data-bs-target="#launch-offcanvas">Get A
+                    Quote <i class="bi bi-arrow-right-circle fs-5"></i></button>
+            </nav>
+        </div>
+        <div id="liveAlertPlaceholder" class="position-absolute alret-position w-100"></div>
+    </header>
+    <!-- baner section  -->
+    <section class="mt-4 about-banner-bg padding-80 pt-0">
+        <div class="container">
+            <div class="p-3 rounded-5">
+                <div class="row align-items-center padding-80">
+                    <div class="col-12">
+                        <h2 class="text-center fs-6 text-muted pb-2"><span class="text-primary">Home</span> / services
+                        </h2>
+                        <h3 class="text-muted fs-1 fw-normal text-center">Our Service</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="padding-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card  border-0">
+                                <div class="blog-img">
+                                    <img src="img/blog_img01.jpg" class="card-img-top " alt="...">
+                                    <div class="blog-overly text-center">
+                                        <button type="button" class="bg-transparent border-0 fw-semibold rounded-pill"
+                                            data-bs-toggle="modal" data-bs-target="#b3"><img src="img/b-link.png"
+                                                alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text py-1 text-muted hover-2"><span
+                                            class="p-1 text-capitalize border border-1 border-bottom-0 border-top-0 border-start-0 border-secondary"><i
+                                                class="bi bi-calendar-date text-primary"></i> 19 march,2019</span><span
+                                            class="p-1 text-capitalize"><i class="bi-person text-primary"></i> By Jhone
+                                            Doe</span>
+                                    </p>
+                                    <h5 class="card-title h1 hover-2">Lorem ipsum dolor sit amet, consectetur cing elit,
+                                        sed do eiusmod tempor.
+                                    </h5>
+                                    <p class="card-text py-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                        esse cillum dolore.</p>
+                                    <a href="#"
+                                        class="btn btn-gradaint-hover rounded-pill text-capitalize py-3 px-5">read more
+                                        <i class="bi-arrow-right-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="b3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true" data-bs-backdrop="static">
+                                <div class="modal-dialog modal-dialog-top ">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <div class="modal-header border-0">
+                                            <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="card  border-0">
+                                                <div class="blog-img">
+                                                    <img src="img/blog_img01.jpg" class="card-img-top " alt="...">
+                                                    <div class="blog-overly text-center">
+                                                    </div>
+                                                </div>
+                                                <div class="card-body">
+                                                    <p class="card-text py-1 text-muted hover-2"><span
+                                                            class="p-1 text-capitalize border border-1 border-bottom-0 border-top-0 border-start-0 border-secondary"><i
+                                                                class="bi bi-calendar-date text-primary"></i> 19
+                                                            march,2019</span><span class="p-1 text-capitalize"><i
+                                                                class="bi-person text-primary"></i> By Jhone Doe</span>
+                                                    </p>
+                                                    <h5 class="card-title text-center">Praesent justo mauris, tincidunt
+                                                        vitae
+                                                        nisi ultricies.</h5>
+                                                    <p class="card-text py-1 text-center">Aenean sed velit nulla. Etiam
+                                                        viverra
+                                                        scelerisque porta. Quisque ut dolor aliquam, gravida lacus..</p>
+                                                    <a href="#"
+                                                        class="btn btn-gradaint-hover col-12 rounded-pill text-capitalize py-3 px-5">read
+                                                        more <i class="bi-arrow-right-circle"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card  border-0">
+                                <div class="blog-img">
+                                    <img src="img/blog_img02.jpg" class="card-img-top " alt="...">
+                                    <div class="blog-overly text-center">
+                                        <button type="button" class="bg-transparent border-0 fw-semibold rounded-pill"
+                                            data-bs-toggle="modal" data-bs-target="#b2"><img src="img/b-link.png"
+                                                alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text py-1 text-muted hover-2"><span
+                                            class="p-1 text-capitalize border border-1 border-bottom-0 border-top-0 border-start-0 border-secondary"><i
+                                                class="bi bi-calendar-date text-primary"></i> 19 march,2019</span><span
+                                            class="p-1 text-capitalize"><i class="bi-person text-primary"></i> By Jhone
+                                            Doe</span>
+                                    </p>
+                                    <h5 class="card-title h1 hover-2">There are many variations passages of like
+                                        consectetur lorem ipsum available.</h5>
+                                    <p class="card-text py-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                        esse cillum dolore.</p>
+                                    <a href="#"
+                                        class="btn btn-gradaint-hover rounded-pill text-capitalize py-3 px-5">read more
+                                        <i class="bi-arrow-right-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="b2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true" data-bs-backdrop="static">
+                                <div class="modal-dialog modal-dialog-top ">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <div class="modal-header border-0">
+                                            <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="card  border-0">
+                                                <div class="blog-img">
+                                                    <img src="img/blog_img02.jpg" class="card-img-top " alt="...">
+                                                    <div class="blog-overly text-center">
+                                                    </div>
+                                                </div>
+                                                <div class="card-body">
+                                                    <p class="card-text py-1 text-muted hover-2"><span
+                                                            class="p-1 text-capitalize border border-1 border-bottom-0 border-top-0 border-start-0 border-secondary"><i
+                                                                class="bi bi-calendar-date text-primary"></i> 19
+                                                            march,2019</span><span class="p-1 text-capitalize"><i
+                                                                class="bi-person text-primary"></i> By Jhone Doe</span>
+                                                    </p>
+                                                    <h5 class="card-title text-center">Monthly eraesent justo mauris,
+                                                        vitae nisi
+                                                        ultricies.</h5>
+                                                    <p class="card-text py-1 text-center">Aenean sed velit nulla. Etiam
+                                                        viverra
+                                                        scelerisque porta. Quisque ut dolor aliquam, gravida lacus..</p>
+                                                    <a href="#"
+                                                        class="btn btn-gradaint-hover col-12 rounded-pill text-capitalize py-3 px-5">read
+                                                        more <i class="bi-arrow-right-circle"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card  border-0">
+                                <div class="blog-img">
+                                    <img src="img/blog_img03.jpg" class="card-img-top " alt="...">
+                                    <div class="blog-overly text-center">
+                                        <button type="button" class="bg-transparent border-0 fw-semibold rounded-pill"
+                                            data-bs-toggle="modal" data-bs-target="#b1"><img src="img/b-link.png"
+                                                alt=""></button>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text py-1 text-muted hover-2"><span
+                                            class="p-1 text-capitalize border border-1 border-bottom-0 border-top-0 border-start-0 border-secondary"><i
+                                                class="bi bi-calendar-date text-primary"></i> 19 march,2019</span><span
+                                            class="p-1 text-capitalize"><i class="bi-person text-primary"></i> By Jhone
+                                            Doe</span>
+                                    </p>
+                                    <h5 class="card-title h1 hover-2">There are many variations passages of like
+                                        consectetur lorem ipsum available.</h5>
+                                    <p class="card-text py-1 text-center">Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate velit esse cillum dolore.</p>
+                                    <a href="#"
+                                        class="btn btn-gradaint-hover col-12 rounded-pill text-capitalize py-3 px-5">read
+                                        more
+                                        <i class="bi-arrow-right-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="b1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true" data-bs-backdrop="static">
+                                <div class="modal-dialog modal-dialog-top ">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <div class="modal-header border-0">
+                                            <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="card  border-0">
+                                                <div class="blog-img">
+                                                    <img src="img/blog_img03.jpg" class="card-img-top " alt="...">
+                                                </div>
+                                                <div class="card-body">
+                                                    <p class="card-text py-1 text-muted hover-2"><span
+                                                            class="p-1 text-capitalize border border-1 border-bottom-0 border-top-0 border-start-0 border-secondary"><i
+                                                                class="bi bi-calendar-date text-primary"></i> 19
+                                                            march,2019</span><span class="p-1 text-capitalize"><i
+                                                                class="bi-person text-primary"></i> By Jhone Doe</span>
+                                                    </p>
+                                                    <h5 class="card-title text-center">User Experience Psychology And
+                                                        Performance Smashing</h5>
+                                                    <p class="card-text py-1 text-center">Aenean sed velit nulla. Etiam
+                                                        viverra
+                                                        scelerisque porta. Quisque ut dolor aliquam, gravida lacus..</p>
+                                                    <a href="#"
+                                                        class="btn btn-gradaint-hover col-12 rounded-pill text-capitalize py-3 px-5">read
+                                                        more <i class="bi-arrow-right-circle"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 p-2">
+                    <div class="Search p-4 border border-1 border-muted my-5">
+                        <h5 class="fw-bold text-capitalize"><span class=" text-primary fw-bold h4 pe-3"><i
+                                    class="bi bi-signpost"></i></span>Search Objects</h5>
+                        <form action="">
+                            <div class="input-group mt-5">
+                                <input type="email" class="py-3 bg-skin rounded-0 fw-bold form-control"
+                                    placeholder="Search your keyword...">
+                                <button type="button" class=" btn btn-primary rounded-0 fw-bold"><i
+                                        class="bi bi-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="Categories p-4 border border-1 border-muted">
+                        <h5 class="fw-bold"><span class=" text-primary fw-bold h4 pe-3"><i
+                                    class="bi bi-signpost"></i></span>Categories</h5>
+                        <ol class="list-unstyled">
+                            <li><a href="#"
+                                    class="fw-semibold text-decoration-none fs-6 text-capitalize footer-hover d-flex justify-content-between">
+                                    <p>Lifestyle </p><span class="p-2 bg-skin ">26</span>
+                                </a></li>
+                            <li><a href="#"
+                                    class="fw-semibold text-decoration-none fs-6 text-capitalize footer-hover d-flex justify-content-between">
+                                    <p>Travel </p><span class="p-2 bg-skin ">30</span>
+                                </a></li>
+                            <li><a href="#"
+                                    class="fw-semibold text-decoration-none fs-6 text-capitalize footer-hover d-flex justify-content-between">
+                                    <p>Fashion </p><span class="p-2 bg-skin ">71</span>
+                                </a></li>
+                        </ol>
+                    </div>
+                    <div class="Recent-Posts p-4 border border-1 border-muted my-5">
+                        <h5 class="fw-bold"><span class=" text-primary fw-bold h4 pe-3"><i
+                                    class="bi bi-signpost"></i></span>Recent Posts</h5>
+                        <div class="border-bottom border-double"></div>
+                        <p class="py-3 fw-semibold footer-hover"><i class="bi bi-stickies-fill p-2 text-primary"></i>The
+                            Front Page of Indian Organic Food Ingredients</p>
+                        <div class="border-bottom"></div>
+                        <p class="py-3 fw-semibold footer-hover"><i
+                                class="bi bi-stickies-fill p-2 text-primary"></i>Nature Bio Foods’ Organic Farmer
+                            Bahadur Singh Bajwal Re-elected to Fairtrade NAPP Board</p>
+                        <div class="border-bottom"></div>
+                        <p class="py-3 fw-semibold footer-hover"><i class="bi bi-stickies-fill p-2 text-primary"></i>The
+                            Organic Times</p>
+                        <div class="border-bottom"></div>
+                        <p class="py-3 fw-semibold footer-hover"><i
+                                class="bi bi-stickies-fill p-2 text-primary"></i>Nature Bio Foods’ CSR arm LT Foundation
+                            conferred Bundelkhand Ratan Samman</p>
+                        <div class="border-bottom"></div>
+                        <p class="py-3 fw-semibold footer-hover"><i class="bi bi-stickies-fill p-2 text-primary"></i>
+                            NBF Cricket Premier League – 2022</p>
+                    </div>
+                    <div class="Tags p-4 border border-1 border-muted">
+                        <h5 class="fw-bold text-capitalize"><span class=" text-primary fw-bold h4 pe-3"><i
+                                    class="bi bi-signpost"></i></span>Popular Tags</h5>
+                        <form action="">
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Popular</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">desgin</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">ux</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">usability</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">develop</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">icon</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Car</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Service</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Repairs</button>
+                            <button type="button" class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Auto
+                                Parts</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Oil</button>
+                            <button type="button"
+                                class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Dealer</button>
+                            <button type="button" class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Oil
+                                Change</button>
+                            <button type="button" class=" btn btn-primary m-1 text-uppercase rounded-0 fw-bold">Body
+                                Color</button>
+                        </form>
+                    </div>
+                    <div class="Follow p-4 border border-1 border-muted my-5">
+                        <h5 class="fw-bold text-capitalize text-center"><span class=" text-primary fw-bold h4 pe-3"><i
+                                    class="bi bi-signpost"></i></span>Follow us</h5>
+                        <div class="col-8 mx-auto">
+                            <i class="bi bi-facebook fs-4 pe-3 hover-2"></i>
+                            <i class="bi bi-twitter fs-4 pe-3 hover-2"></i>
+                            <i class="bi bi-linkedin fs-4 pe-3 hover-2"></i>
+                            <i class="bi bi-youtube fs-4 pe-3 hover-2"></i>
+                        </div>
+                    </div>
+                    <div class="Follow p-4 border border-1 border-muted my-5">
+                        <h5 class="fw-bold text-capitalize text-center"><span class=" text-primary fw-bold h4 pe-3"><i
+                                    class="bi bi-signpost"></i></span>Instagram</h5>
+                        <div class="row align-items-center">
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_01.jpg" alt="">
+                            </div>
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_02.jpg" alt="">
+                            </div>
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_03.jpg" alt="">
+                            </div>
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_04.jpg" alt="">
+                            </div>
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_05.jpg" alt="">
+                            </div>
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_06.jpg" alt="">
+                            </div>
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_07.jpg" alt="">
+                            </div>
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_08.jpg" alt="">
+                            </div>
+                            <div class="col-6 col-lg-4 my-2">
+                                <img src="img/insta_09.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- pagination  -->
+                <div class="col-5 mx-auto">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item rounded-0 mx-2 fw-bold border-muted">
+                                <a class="page-link fs-5" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item mx-2 px-1 py-1 fw-bold border-muted"><a class="page-link"
+                                    href="#">1</a></li>
+                            <li class="page-item mx-2 px-1 py-1 fw-bold border-muted"><a class="page-link"
+                                    href="#">2</a></li>
+                            <li class="page-item mx-2 px-1 py-1 fw-bold border-muted"><a class="page-link"
+                                    href="#">3</a></li>
+                            <li class="page-item mx-2 fw-bold border-muted">
+                                <a class="page-link fs-5" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- appointment section   -->
+    <section class="padding-80 appointment-bg">
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Aliquam varius ligula nec leo tempus porta.
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="fw-semibold fs-5">Just like a clinic visit, our doctors listen to your
+                                        history of symptoms and diagnose your condition. Depending on it, they may
+                                        prescribe medicines or recommend some lab tests.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Suspendisse vitae varius diam, a vulputate urna.
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="fw-semibold fs-5">Just like a clinic visit, our doctors listen to your
+                                        history of symptoms and diagnose your condition. Depending on it, they may
+                                        prescribe medicines or recommend some lab tests.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingthree">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Aliquam aliquet purus eget lacus pretium.
+                                </button>
+                            </h2>
+                            <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="fw-semibold fs-5">Just like a clinic visit, our doctors listen to your
+                                        history of symptoms and diagnose your condition. Depending on it, they may
+                                        prescribe medicines or recommend some lab tests.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <img src="img/ap-illustration.png" alt="">
+                </div>
+            </div>
+    </section>
+    <!-- footer  -->
+    <footer class="padding-80 footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a class="fw-bold fs-4 my-3 text-dark text-decoration-none" href="#"><img src="img/logo.png" alt=""
+                            class="col-2 p-1">Hiranandani</a>
+                    <p class="ps-1">Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem tium totam
+                        rem aperam eaque ipsa quae ab illose inntore veritatis</p>
+                    <i class="bi bi-facebook fs-4 pe-3 text-center hover-2"></i>
+                    <i class="bi bi-twitter fs-4 pe-3 text-center hover-2"></i>
+                    <i class="bi bi-linkedin fs-4 pe-3 text-center hover-2"></i>
+                    <i class="bi bi-youtube fs-4 pe-3 text-center hover-2"></i>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="fw-bold">Our Links</h4>
+                    <ol class="list-unstyled ps-3">
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Partners</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> About Us</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Career</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Reviews</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Terms & Conditions</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Help</a></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="fw-bold">Our Links</h4>
+                    <ol class="list-unstyled ps-3">
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Home</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> About Us</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Services</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Project</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Our Team</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Latest Blog</a></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="fw-bold">Contact us</h4>
+                    <a href="#" class="hover-2 text-decoration-none text-dark py-2 footer-hover footer-hover"><i
+                            class="bi bi-geo-alt pe-2 fs-4"></i>Brooklyn, New York, United States</a>
+                    <a href="#" class="hover-2 text-decoration-none text-dark py-2 footer-hover"><i
+                            class="bi bi-telephone pe-2 fs-4"></i>+0123-456789</a>
+                    <a href="#" class="hover-2 text-decoration-none text-dark d-block py-2 footer-hover"><i
+                            class="bi bi-envelope pe-2 fs-4"></i>example@example.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- back to top button -->
+    <div class="back-to-top b-fixed">
+        <a href="#" class=" text-center"><i class="bi bi-caret-up-fill text-white fs-3"></i></a>
+    </div>
+    <!-- offcanvas  -->
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" id="launch-offcanvas">
+        <div class="offcanvas-header">
+            <h2 class="text-primary text-capitalize fs-4">We Take Care Of Your Life Healthy Health</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h3
+                class="text-capitalize text-primary fs-4 border border-3 bodrer-opacity-25 border-primary border-bottom-0 border-end-0 pt-1 ps-3 rounded-5 bodrer-opacity-50">
+                Pedlatric</h3>
+            <p class="ps-4 border border-3 border-opacity-25 border-primary border-top-0 border-start-0 rounded-5 mt-5">
+                Fusce eget condimentum lectus, sed commodo dui. Suspendisse non vehicula ant aecenas placerat finibus
+                metus, at finibus neque.</p>
+            <div class="border border border-bottom m-3"></div>
+            <h3
+                class="text-capitalize text-primary fs-4 border border-3 bodrer-opacity-25 border-primary border-bottom-0 border-end-0 pt-1 ps-3 rounded-5 bodrer-opacity-50">
+                Dental</h3>
+            <p
+                class="ps-4 border border-3 border-opacity-25 border-primary border-top-0 border-start-0 rounded-5 mt-5 p-2">
+                We're an experienced and talented team of passionate consultants who breathe with search engine
+                marketing.</p>
+            <h3
+                class="text-capitalize text-primary fs-4 border border-3 bodrer-opacity-25 border-primary border-bottom-0 border-end-0 pt-1 ps-3 rounded-5 bodrer-opacity-50">
+                Physicians</h3>
+            <p
+                class="ps-4 border border-3 border-opacity-25 border-primary border-top-0 border-start-0 rounded-5 mt-5 p-2">
+                We're an experienced and talented team of passionate consultants who breathe with search engine
+                marketing.</p>
+        </div>
+    </div>
+    <script src="js/bootstrap-slider.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-element-bundle.min.js"></script>'
+    <script>
+        // number count for stats, using jQuery animate
+
+        $('.counting').each(function () {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+
+            $({ countNum: $this.text() }).animate({
+                countNum: countTo
+            },
+
+                {
+
+                    duration: 3000,
+                    easing: 'linear',
+                    step: function () {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function () {
+                        $this.text(this.countNum);
+                        //alert('finished');
+                    }
+
+                });
+
+
+        });
+    </script>
+    <script>
+
+        (() => {
+            'use strict'
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+                .forEach(tooltip => {
+                    new bootstrap.Tooltip(tooltip)
+                })
+            document.querySelectorAll('[data-bs-toggle="popover"]')
+                .forEach(popover => {
+                    new bootstrap.Popover(popover)
+                })
+
+            const toastPlacement = document.getElementById('toastPlacement')
+            if (toastPlacement) {
+                document.getElementById('selectToastPlacement').addEventListener('change', function () {
+                    if (!toastPlacement.dataset.originalClass) {
+                        toastPlacement.dataset.originalClass = toastPlacement.className
+                    }
+
+                    toastPlacement.className = `${toastPlacement.dataset.originalClass} ${this.value}`
+                })
+            }
+            document.querySelectorAll('.bd-example .toast')
+                .forEach(toastNode => {
+                    const toast = new bootstrap.Toast(toastNode, {
+                        autohide: false
+                    })
+
+                    toast.show()
+                })
+            const toastTrigger = document.getElementById('liveToastBtn')
+            const toastLiveExample = document.getElementById('liveToast')
+            if (toastTrigger) {
+                toastTrigger.addEventListener('click', () => {
+                    const toast = new bootstrap.Toast(toastLiveExample)
+
+                    toast.show()
+                })
+            }
+            const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+            const alertTrigger = document.getElementById('liveAlertBtn')
+
+            const appendAlert = (message, type) => {
+                const wrapper = document.createElement('div')
+                wrapper.innerHTML = [
+                    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                    `   <div>${message}</div>`,
+                    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                    '</div>'
+                ].join('')
+
+                alertPlaceholder.append(wrapper)
+            }
+
+            if (alertTrigger) {
+                alertTrigger.addEventListener('click', () => {
+                    appendAlert('could not find this function', 'success')
+                })
+            }
+            document.querySelectorAll('.bd-example-indeterminate [type="checkbox"]')
+                .forEach(checkbox => {
+                    if (checkbox.id.includes('Indeterminate')) {
+                        checkbox.indeterminate = true
+                    }
+                })
+            document.querySelectorAll('.bd-content [href="#"]')
+                .forEach(link => {
+                    link.addEventListener('click', event => {
+                        event.preventDefault()
+                    })
+                })
+            const exampleModal = document.getElementById('exampleModal')
+            if (exampleModal) {
+                exampleModal.addEventListener('show.bs.modal', event => {
+                    // Button that triggered the modal
+                    const button = event.relatedTarget
+                    // Extract info from data-bs-* attributes
+                    const recipient = button.getAttribute('data-bs-whatever')
+
+                    // Update the modal's content.
+                    const modalTitle = exampleModal.querySelector('.modal-title')
+                    const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+                    modalTitle.textContent = `New message to ${recipient}`
+                    modalBodyInput.value = recipient
+                })
+            }
+            const myOffcanvas = document.querySelectorAll('.bd-example-offcanvas .offcanvas')
+            if (myOffcanvas) {
+                myOffcanvas.forEach(offcanvas => {
+                    offcanvas.addEventListener('show.bs.offcanvas', event => {
+                        event.preventDefault()
+                    }, false)
+                })
+            }
+        })()
+
+    </script>
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $("header").addClass("fixed")
+                $(".back-to-top").addClass("b-fixed")
+            }
+            else {
+                $("header").removeClass("fixed")
+                $(".back-to-top").removeClass("b-fixed")
+            }
+        })
+    </script>
+</body>
+
+</html>

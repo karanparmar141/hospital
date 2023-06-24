@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiranandani-Home</title>
+    <style>
+        @import url(css/swiper-bundle.min.css);
+        @import url(css/bootstrap-icons.min.css);
+        @import url(css/bootstrap-slider.min.css);
+        @import url(css/bootstrap.min.css);
+        @import url(css/style.css);
+    </style>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="navbar navbar-expand-lg bg-dark bg-white">
+        <div class="container">
+            <a class="navbar-brand text-primary text-uppercase fw-bold fs-4" href="#"><img src="img/logo.png" alt=""
+                    style="width: 15%;"> Hiranandani</a>
+            <button class="navbar-toggler border-0 shadow-none" data-bs-toggle="collapse" data-bs-target="#dropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="dropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item fw-semibold h5"><a href="index.html"
+                            class="nav-link text-dark hover text-uppercase px-3">home</a></li>
+                    <li class="nav-item fw-semibold h5"><a href="about.html"
+                            class="nav-link text-dark hover text-uppercase px-3">about</a></li>
+                    <li class="nav-item fw-semibold h5"><a href="services.html"
+                            class="nav-link text-primary hover text-uppercase px-3">services</a></li>
+                    <li class="nav-item fw-semibold h5"><a href="blog.html"
+                            class="nav-link text-dark hover text-uppercase px-3">blog</a></li>
+                    <li class="nav-item disabled fw-semibold h5"><a href="#" class="nav-link hover text-uppercase px-3"
+                            id="liveAlertBtn">Departments</a></li>
+                </ul>
+                <button class="btn btn-gradaint-hover rounded-pill pt-2 pb-2 ps-4 pe-4 text-uppercase fw-semibold"
+                    data-bs-toggle="offcanvas" data-bs-target="#launch-offcanvas">Get A
+                    Quote <i class="bi bi-arrow-right-circle fs-5"></i></button>
+            </nav>
+        </div>
+        <div id="liveAlertPlaceholder" class="position-absolute alret-position w-100"></div>
+    </header>
+    <!-- baner section  -->
+    <section class="mt-4 about-banner-bg padding-80 pt-0">
+        <div class="container">
+            <div class="p-3 rounded-5">
+                <div class="row align-items-center padding-80">
+                    <div class="col-12">
+                        <h2 class="text-center fs-6 text-muted pb-2"><span class="text-primary">Home</span> / services
+                        </h2>
+                        <h3 class="text-muted fs-1 fw-normal text-center">Our Service</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section  -->
+    <section class="padding-80 services-bg">
+        <div class="container">
+            <div class="title col-7 mx-auto">
+                <p class="text-uppercase text-primary text-center"><span
+                        class="bg-primary  p-2 px-3 bg-opacity-25">OUR</span>services</p>
+                <h1 class="text-center text-capitalize display-4 fw-semibold">Our Special Services For You</h1>
+                <p class="text-center text-muted px-5">Fusce pharetra odio in urna laoreet laoreet. Aliquam erat
+                    volutpat. Phasellus nec ligula arcu. Aliquam eu urna pulvinar, iaculis ipsum in, porta massa.</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4 mt-5">
+                    <div class="services-icon p-3 rounded-circle col-2 mx-auto">
+                        <img src="img/sr-icon01.png" alt="">
+                    </div>
+                    <div class="services-content p-4">
+                        <h5 class="text-center hover-2 mt-2">Online Emergency</h5>
+                        <p class="text-center px-1">Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis
+                            vestibulum eget orci maximus pretium.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mt-5">
+                    <div class="services-icon p-3 rounded-circle col-2 mx-auto">
+                        <img src="img/sr-icon02.png" alt="">
+                    </div>
+                    <div class="services-content p-4">
+                        <h5 class="text-center hover-2 mt-2">Medication Service</h5>
+                        <p class="text-center px-1">Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis
+                            vestibulum eget orci maximus pretium.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mt-5">
+                    <div class="services-icon p-3 rounded-circle col-2 mx-auto">
+                        <img src="img/sr-icon03.png" alt="">
+                    </div>
+                    <div class="services-content p-4">
+                        <h5 class="text-center hover-2 mt-2">24hr Health Program</h5>
+                        <p class="text-center px-1">Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis
+                            vestibulum eget orci maximus pretium.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NEWSLETTER section   -->
+    <section class="padding-80 team-bg">
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-9">
+                    <div class="row align-items-center">
+                        <div class="title col-5 mt-5">
+                            <p class="text-uppercase text-primary"><span
+                                    class="bg-primary py-2 ps-3 bg-opacity-25">NEWS</span>LETTER</p>
+                            <h1 class="text-capitalize display-5 fw-semibold">Subscribe To Our Newsletter</h1>
+                        </div>
+                        <div class="col-7 mt-5">
+                            <form action="">
+                                <div class="input-group">
+                                    <input type="email" class="py-2 form-control" placeholder="Enter Your Email Adress">
+                                    <button type="button" value="Subscribe"
+                                        class="btn btn-gradaint-hover text-white fs-5 fw-bold py-2">Subscribe <i
+                                            class="bi bi-arrow-right-circle fs-5"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 d-none d-lg-block">
+                    <img src="img/news-illustration.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- appointment section   -->
+    <section class="padding-80 appointment-bg">
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Aliquam varius ligula nec leo tempus porta.
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="fw-semibold fs-5">Just like a clinic visit, our doctors listen to your
+                                        history of symptoms and diagnose your condition. Depending on it, they may
+                                        prescribe medicines or recommend some lab tests.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Suspendisse vitae varius diam, a vulputate urna.
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="fw-semibold fs-5">Just like a clinic visit, our doctors listen to your
+                                        history of symptoms and diagnose your condition. Depending on it, they may
+                                        prescribe medicines or recommend some lab tests.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingthree">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Aliquam aliquet purus eget lacus pretium.
+                                </button>
+                            </h2>
+                            <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="fw-semibold fs-5">Just like a clinic visit, our doctors listen to your
+                                        history of symptoms and diagnose your condition. Depending on it, they may
+                                        prescribe medicines or recommend some lab tests.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <img src="img/ap-illustration.png" alt="">
+                </div>
+            </div>
+    </section>
+    <!-- footer  -->
+    <footer class="padding-80 footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <a class="fw-bold fs-4 my-3 text-dark text-decoration-none" href="#"><img src="img/logo.png" alt=""
+                            class="col-2 p-1">Hiranandani</a>
+                    <p class="ps-1">Sed ut perspiciatis unde om is nerror sit voluptatem accustium dolorem tium totam
+                        rem aperam eaque ipsa quae ab illose inntore veritatis</p>
+                    <i class="bi bi-facebook fs-4 pe-3 text-center hover-2"></i>
+                    <i class="bi bi-twitter fs-4 pe-3 text-center hover-2"></i>
+                    <i class="bi bi-linkedin fs-4 pe-3 text-center hover-2"></i>
+                    <i class="bi bi-youtube fs-4 pe-3 text-center hover-2"></i>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="fw-bold">Our Links</h4>
+                    <ol class="list-unstyled ps-3">
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Partners</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> About Us</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Career</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Reviews</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Terms & Conditions</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Help</a></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="fw-bold">Our Links</h4>
+                    <ol class="list-unstyled ps-3">
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Home</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> About Us</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Services</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Project</a>
+                        </li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Our Team</a></li>
+                        <li class="py-2"><a href="#" class="text-decoration-none fs-6 text-muted hover-2"><i
+                                    class="bi-caret-right-fill text-primary"></i> Latest Blog</a></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h4 class="fw-bold">Contact us</h4>
+                    <a href="#" class="hover-2 text-decoration-none text-dark py-2 footer-hover footer-hover"><i
+                            class="bi bi-geo-alt pe-2 fs-4"></i>Brooklyn, New York, United States</a>
+                    <a href="#" class="hover-2 text-decoration-none text-dark py-2 footer-hover"><i
+                            class="bi bi-telephone pe-2 fs-4"></i>+0123-456789</a>
+                    <a href="#" class="hover-2 text-decoration-none text-dark d-block py-2 footer-hover"><i
+                            class="bi bi-envelope pe-2 fs-4"></i>example@example.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- back to top button -->
+    <div class="back-to-top b-fixed">
+        <a href="#" class=" text-center"><i class="bi bi-caret-up-fill text-white fs-3"></i></a>
+    </div>
+    <!-- offcanvas  -->
+    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" id="launch-offcanvas">
+        <div class="offcanvas-header">
+            <h2 class="text-primary text-capitalize fs-4">We Take Care Of Your Life Healthy Health</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h3
+                class="text-capitalize text-primary fs-4 border border-3 bodrer-opacity-25 border-primary border-bottom-0 border-end-0 pt-1 ps-3 rounded-5 bodrer-opacity-50">
+                Pedlatric</h3>
+            <p class="ps-4 border border-3 border-opacity-25 border-primary border-top-0 border-start-0 rounded-5 mt-5">
+                Fusce eget condimentum lectus, sed commodo dui. Suspendisse non vehicula ant aecenas placerat finibus
+                metus, at finibus neque.</p>
+            <div class="border border border-bottom m-3"></div>
+            <h3
+                class="text-capitalize text-primary fs-4 border border-3 bodrer-opacity-25 border-primary border-bottom-0 border-end-0 pt-1 ps-3 rounded-5 bodrer-opacity-50">
+                Dental</h3>
+            <p
+                class="ps-4 border border-3 border-opacity-25 border-primary border-top-0 border-start-0 rounded-5 mt-5 p-2">
+                We're an experienced and talented team of passionate consultants who breathe with search engine
+                marketing.</p>
+            <h3
+                class="text-capitalize text-primary fs-4 border border-3 bodrer-opacity-25 border-primary border-bottom-0 border-end-0 pt-1 ps-3 rounded-5 bodrer-opacity-50">
+                Physicians</h3>
+            <p
+                class="ps-4 border border-3 border-opacity-25 border-primary border-top-0 border-start-0 rounded-5 mt-5 p-2">
+                We're an experienced and talented team of passionate consultants who breathe with search engine
+                marketing.</p>
+        </div>
+    </div>
+    <script src="js/bootstrap-slider.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-element-bundle.min.js"></script>'
+    <script>
+        // number count for stats, using jQuery animate
+
+        $('.counting').each(function () {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+
+            $({ countNum: $this.text() }).animate({
+                countNum: countTo
+            },
+
+                {
+
+                    duration: 3000,
+                    easing: 'linear',
+                    step: function () {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function () {
+                        $this.text(this.countNum);
+                        //alert('finished');
+                    }
+
+                });
+
+
+        });
+    </script>
+    <script>
+
+        (() => {
+            'use strict'
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+                .forEach(tooltip => {
+                    new bootstrap.Tooltip(tooltip)
+                })
+            document.querySelectorAll('[data-bs-toggle="popover"]')
+                .forEach(popover => {
+                    new bootstrap.Popover(popover)
+                })
+
+            const toastPlacement = document.getElementById('toastPlacement')
+            if (toastPlacement) {
+                document.getElementById('selectToastPlacement').addEventListener('change', function () {
+                    if (!toastPlacement.dataset.originalClass) {
+                        toastPlacement.dataset.originalClass = toastPlacement.className
+                    }
+
+                    toastPlacement.className = `${toastPlacement.dataset.originalClass} ${this.value}`
+                })
+            }
+            document.querySelectorAll('.bd-example .toast')
+                .forEach(toastNode => {
+                    const toast = new bootstrap.Toast(toastNode, {
+                        autohide: false
+                    })
+
+                    toast.show()
+                })
+            const toastTrigger = document.getElementById('liveToastBtn')
+            const toastLiveExample = document.getElementById('liveToast')
+            if (toastTrigger) {
+                toastTrigger.addEventListener('click', () => {
+                    const toast = new bootstrap.Toast(toastLiveExample)
+
+                    toast.show()
+                })
+            }
+            const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+            const alertTrigger = document.getElementById('liveAlertBtn')
+
+            const appendAlert = (message, type) => {
+                const wrapper = document.createElement('div')
+                wrapper.innerHTML = [
+                    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                    `   <div>${message}</div>`,
+                    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                    '</div>'
+                ].join('')
+
+                alertPlaceholder.append(wrapper)
+            }
+
+            if (alertTrigger) {
+                alertTrigger.addEventListener('click', () => {
+                    appendAlert('could not find this function', 'success')
+                })
+            }
+            document.querySelectorAll('.bd-example-indeterminate [type="checkbox"]')
+                .forEach(checkbox => {
+                    if (checkbox.id.includes('Indeterminate')) {
+                        checkbox.indeterminate = true
+                    }
+                })
+            document.querySelectorAll('.bd-content [href="#"]')
+                .forEach(link => {
+                    link.addEventListener('click', event => {
+                        event.preventDefault()
+                    })
+                })
+            const exampleModal = document.getElementById('exampleModal')
+            if (exampleModal) {
+                exampleModal.addEventListener('show.bs.modal', event => {
+                    // Button that triggered the modal
+                    const button = event.relatedTarget
+                    // Extract info from data-bs-* attributes
+                    const recipient = button.getAttribute('data-bs-whatever')
+
+                    // Update the modal's content.
+                    const modalTitle = exampleModal.querySelector('.modal-title')
+                    const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+                    modalTitle.textContent = `New message to ${recipient}`
+                    modalBodyInput.value = recipient
+                })
+            }
+            const myOffcanvas = document.querySelectorAll('.bd-example-offcanvas .offcanvas')
+            if (myOffcanvas) {
+                myOffcanvas.forEach(offcanvas => {
+                    offcanvas.addEventListener('show.bs.offcanvas', event => {
+                        event.preventDefault()
+                    }, false)
+                })
+            }
+        })()
+
+    </script>
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $("header").addClass("fixed")
+                $(".back-to-top").addClass("b-fixed")
+            }
+            else {
+                $("header").removeClass("fixed")
+                $(".back-to-top").removeClass("b-fixed")
+            }
+        })
+    </script>
+</body>
+
+</html>

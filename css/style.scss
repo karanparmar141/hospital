@@ -1,0 +1,197 @@
+* {
+    outline: none;
+}
+:root {
+    --bs-primary: #1e0b9b;
+    --bs-primary-rgb: 30, 11, 155;
+}
+.btn-gradaint-hover{
+   background: transparent linear-gradient(90deg, #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box;
+   color: #fff;
+   transition: all 0.5s;
+   &:hover{
+    background: transparent linear-gradient(-90deg, #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+   }
+}
+.bg-gradaint-hover{
+    background-color: #fff;
+    color: #fff;
+    transition: all 0.5s;
+    &:hover{
+     background: transparent linear-gradient(-90deg, #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box;
+     color: #fff;
+    }
+ }
+.hover{
+    transition: all 0.5s;
+    &:hover{
+        transform: rotate(360deg);
+        color: #1e0b9b !important;
+        border-bottom: 2px solid #1E0B9B;
+        border-top: 2px solid #1E0B9B;
+        border-radius: 50px;
+    }
+}
+.hover-2{
+    transition: all 0.5s;
+    &:hover{
+        color: #1e0b9b !important;
+    }
+}
+.banner-bg{
+    background-image: url(../img/header-bg.png);
+    background-size: cover;
+}
+.services-bg{
+    background-image: url(../img/an-bg02.png);
+    background-size: cover;
+
+}
+.about-bg{
+    background-image: url(../img/an-bg03.png);
+    background-size: cover;
+}
+.about-banner-bg{ 
+    background-image: url(../img/test-bg.jpg);
+    background-size: cover;
+}
+.counter-bg{
+    background-image: url(../img/an-bg04.png);
+    background-size: cover;
+}
+.Departments-bg{
+    background-image: url(../img/an-bg05.png);
+    background-size: cover;
+}
+.team-bg{
+    background-image: url(../img/an-bg06.png);
+    background-size: cover;
+
+}
+.testimonial-bg{
+    background-image: url(../img/an-bg07.png);
+    background-size: cover;
+}
+.appointment-bg{
+    background-image: url(../img/an-bg09.png);
+    background-size: cover;
+}
+.blog-bg{
+    background-image: url(../img/an-bg10.png);
+    background-size: cover;
+}
+.contact-bg{
+    background-image: url(../img/an-bg11.png);
+    background-size: cover;
+}
+.logo-bg{
+    background-image: url(../img/an-bg12.png);
+    background-size: cover;
+}
+.footer-bg{
+    background-image: url(../img/footer-bg.png);
+    background-size: cover;
+}
+
+.padding-80{
+    padding: 80px 0;
+}
+img{
+    width: 100%;
+}
+.services-icon{
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 5px #00000065;
+}
+.Departments-icon{
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 0px 5px #00000065;
+    line-height: 80px;
+}
+.Departments-card{
+    transition: all 0.5s;
+    &:hover{ 
+        background: transparent linear-gradient(-90deg, #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box;
+        color: white;
+    }
+}
+.work-img {
+    overflow: hidden;
+    position: relative;
+    img{
+        transition: all 0.5s;
+    }
+    &:hover .work-overly {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(330px);
+    }
+    &:hover img {
+        transform: scale(1.1);
+    }
+    
+    .work-overly {
+        transition: all 0.5s;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #00000077;
+        transform: translateY(450px);
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+.blog-img {
+    overflow: hidden;
+    position: relative;
+    img{
+        transition: all 0.5s;
+    }
+    &:hover .blog-overly {
+        opacity: 1;
+        visibility: visible;
+    }
+    &:hover img {
+        transform: scale(1.1);
+    }
+
+    .blog-overly {
+        transition: all 0.5s;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: transparent linear-gradient(-90deg, #1e0b9b9b 0%, #07cdeca3 100%) 0% 0% no-repeat padding-box;
+        top: 0;
+        left: 0;
+        right: 0;
+        line-height: 260px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.fixed{
+    background-color: #fff !important;
+    box-shadow: 0px 0px 5px #000;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.back-to-top{
+    width: 50px;
+    height: 50px;
+    background-color: #1E0B9B;
+    text-align: center;
+    border-radius: 100%;
+    line-height: 50px;
+}
+.b-fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
